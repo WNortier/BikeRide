@@ -13,3 +13,14 @@ public class Main {
 
     }
 }
+
+class BikeRide {
+
+    public void ride(Bicycle bike) {
+        bike.accelerate();
+        bike.accelerate();
+        bike.brake();
+        System.out.println(bike.currentSpeed());
+    }
+
+}

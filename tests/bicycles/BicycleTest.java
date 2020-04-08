@@ -1,5 +1,7 @@
 package bicycles;
 
+import models.MountainBike;
+import models.RoadBike;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -7,25 +9,19 @@ import static junit.framework.TestCase.assertEquals;
 public class BicycleTest {
 
     @Test
-    public void shouldAccelerate() {
-        Bicycle b = new Bicycle();
-        b.accelerate();
-        assertEquals(5, b.currentSpeed());
+    public void shouldTakeRoadBikeOnARide() {
+        RoadBike roadBike = new RoadBike();
+        BikeRide bikeRide = new BikeRide();
+        bikeRide.ride(roadBike);
+        assertEquals(18, roadBike.currentSpeed());
     }
 
     @Test
-    public void shouldBrake() {
-        Bicycle b = new Bicycle();
-        b.accelerate();
-        b.brake();
-        assertEquals(2, b.currentSpeed());
+    public void shouldTakeMountainBikeOnARide() {
+        MountainBike mountainBike = new MountainBike();
+        BikeRide bikeRide = new BikeRide();
+        bikeRide.ride(mountainBike);
+        assertEquals(7, mountainBike.currentSpeed());
     }
 
-    @Test
-    public void shouldStop() {
-        Bicycle b = new Bicycle();
-        b.accelerate();
-        b.stop();
-        assertEquals(0, b.currentSpeed());
-    }
 }

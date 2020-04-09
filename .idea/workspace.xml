@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ba75c9-0820-4a7a-9101-82e91e94bf71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/MountainBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

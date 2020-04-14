@@ -2,6 +2,7 @@ package bicycles;
 
 import models.MountainBike;
 import models.RoadBike;
+import models.Tandem;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -24,4 +25,11 @@ public class BicycleTest {
         assertEquals(7, mountainBike.currentSpeed());
     }
 
+    @Test
+    public void shouldTakeTandemOnARide() {
+        Tandem tandem = new Tandem();
+        BikeRide bikeRide = new BikeRide();
+        bikeRide.ride(tandem);
+        assertEquals(17, tandem.currentSpeed());
+    }
 }

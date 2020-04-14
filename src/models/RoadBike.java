@@ -1,24 +1,27 @@
 package models;
 
 import bicycles.Bicycle;
+import bicycles.BicycleBase;
 
-public class RoadBike implements Bicycle {
+public class RoadBike extends BicycleBase {
 
-    private int speed = 0;
+//    private int speed = 0;
 
     public void accelerate() {
-        this.speed += 11;
+        changeSpeed(11);
+//        this.speed += 11;
     }
 
     public void brake() {
-        this.speed -= 4;
+        changeSpeed(-4);
+//        this.speed -= 4;
     }
 
-    public int currentSpeed() {
-        return this.speed;
-    }
-
-    public void stop() {
-        this.speed = 0;
-    }
+//    public int currentSpeed() {
+//        return this.speed;
+//    }
+//
+//    public void stop() {
+//        this.speed = 0;
+//    }
 }

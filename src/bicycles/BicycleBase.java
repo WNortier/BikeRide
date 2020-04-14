@@ -3,8 +3,8 @@ package bicycles;
 public abstract class BicycleBase implements Bicycle {
     private int speed;
 
-    protected int changeSpeed(){
-
+    protected void changeSpeed(int speedAmount){
+        this.speed += speedAmount;
     };
 
     public void stop(){

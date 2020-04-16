@@ -3,7 +3,7 @@ package models;
 import bicycles.Bicycle;
 import bicycles.BicycleBase;
 
-public class MountainBike extends BicycleBase {
+public class MountainBike extends BicycleBase implements Bicycle {
 
 //    private int speed = 0;
 

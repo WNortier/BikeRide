@@ -5,13 +5,10 @@ import models.RoadBike;
 
 public class Main {
     public static void main(String[] args) {
-        RoadBike roadbike = new RoadBike();
-        MountainBike mountainBike = new MountainBike();
-        BikeRideOne bikeRide = new BikeRideOne();
-//        bikeRide.ride(roadbike);
-//        bikeRide.ride(mountainBike);
-
-
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4);
+        Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
+        BikeRide bikeRide = new BikeRide(bicycle);
+        bikeRide.ride();
     }
 }
 

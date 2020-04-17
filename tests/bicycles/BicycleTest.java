@@ -26,15 +26,25 @@ public class BicycleTest {
     public void shouldTakeMountainBikeOnARide() {
         MountainBike mountainBike = new MountainBike();
         BikeRideOne bikeRideOne = new BikeRideOne();
+        BikeRideChilled bikeRideChilled = new BikeRideChilled();
+
         bikeRideOne.ride(mountainBike);
         assertEquals(7, mountainBike.currentSpeed());
+
+        bikeRideChilled.chilledRide(mountainBike);
+        assertEquals(9, mountainBike.currentSpeed());
     }
 
     @Test
     public void shouldTakeTandemOnARide() {
         Tandem tandem = new Tandem();
         BikeRideOne bikeRideOne = new BikeRideOne();
+        BikeRideWild bikeRideWild = new BikeRideWild();
+
         bikeRideOne.ride(tandem);
         assertEquals(17, tandem.currentSpeed());
+
+        bikeRideWild.wildRide(tandem);
+        assertEquals(70, tandem.currentSpeed());
     }
 }

@@ -11,40 +11,28 @@ public class BicycleTest {
 
     @Test
     public void shouldTakeRoadBikeOnARide() {
-        RoadBike roadBike = new RoadBike();
-        BikeRideOne bikeRideOne = new BikeRideOne();
-        BikeRideChilled bikeRideChilled = new BikeRideChilled();
-
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
+        Bicycle roadBike = new BicycleFromSpec(roadBikeSpec);
+        BikeRide bikeRideOne = new BikeRideOne();
         bikeRideOne.ride(roadBike);
         assertEquals(18, roadBike.currentSpeed());
-
-        bikeRideChilled.chilledRide(roadBike);
-        assertEquals(25, roadBike.currentSpeed());
     }
 
     @Test
     public void shouldTakeMountainBikeOnARide() {
-        MountainBike mountainBike = new MountainBike();
-        BikeRideOne bikeRideOne = new BikeRideOne();
-        BikeRideChilled bikeRideChilled = new BikeRideChilled();
-
-        bikeRideOne.ride(mountainBike);
-        assertEquals(7, mountainBike.currentSpeed());
-
-        bikeRideChilled.chilledRide(mountainBike);
-        assertEquals(9, mountainBike.currentSpeed());
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
+        Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
+        BikeRide bikeRideChilled = new BikeRideChilled();
+        bikeRideChilled.ride(mountainBike);
+        assertEquals(2, mountainBike.currentSpeed());
     }
 
     @Test
     public void shouldTakeTandemOnARide() {
-        Tandem tandem = new Tandem();
-        BikeRideOne bikeRideOne = new BikeRideOne();
-        BikeRideWild bikeRideWild = new BikeRideWild();
-
-        bikeRideOne.ride(tandem);
-        assertEquals(17, tandem.currentSpeed());
-
-        bikeRideWild.wildRide(tandem);
-        assertEquals(70, tandem.currentSpeed());
+        BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.TandemBike);
+        Bicycle tandemBike = new BicycleFromSpec(tandemBikeSpec);
+        BikeRide bikeRideWild = new BikeRideWild();
+        bikeRideWild.ride(tandemBike);
+        assertEquals(53, tandemBike.currentSpeed());
     }
 }

@@ -35,4 +35,16 @@ public class BicycleTest {
         bikeRideWild.ride(tandemBike);
         assertEquals(53, tandemBike.currentSpeed());
     }
+
+    @Test public void shouldAcceptABikeToFunRide(){
+        FunRide funride = new FunRide(5);
+        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.RoadBike));
+        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.RoadBike));
+        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.RoadBike));
+        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.MountainBike));
+        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.TandemBike));
+        assertEquals(5, funride.getEnteredCount());
+        assertEquals(3, funride.getCountForType(BicycleType.RoadBike));
+        assertEquals("Bike Rejected", funride.addBikeToRide(BicycleType.MountainBike));
+    }
 }

@@ -1,4 +1,10 @@
-package bicycles;
+package specification;
+
+import models.BicycleType;
+import rides.BikeRide;
+import rides.BikeRideChilled;
+import rides.BikeRideNormal;
+import rides.BikeRideWild;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +16,7 @@ public class Main {
         Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
         Bicycle tandemBike = new BicycleFromSpec(tandemBikeSpec);
 
-        BikeRide bikeRideOne = new BikeRideOne();
+        BikeRide bikeRideOne = new BikeRideNormal();
         BikeRide bikeRideChilled = new BikeRideChilled();
         BikeRide bikeRideWild = new BikeRideWild();
 
@@ -20,35 +26,4 @@ public class Main {
     }
 }
 
-interface BikeRide {
-    void ride(Bicycle bike);
-}
 
-class BikeRideOne implements BikeRide {
-    public void ride(Bicycle bike) {
-        bike.accelerate();
-        bike.accelerate();
-        bike.brake();
-        System.out.println(bike.currentSpeed());
-    }
-}
-
-class BikeRideChilled implements BikeRide {
-    public void ride(Bicycle bike){
-        bike.accelerate();
-        bike.brake();
-        System.out.println(bike.currentSpeed());
-    }
-}
-
-class BikeRideWild implements BikeRide {
-    public void ride(Bicycle bike){
-        bike.accelerate();
-        bike.accelerate();
-        bike.accelerate();
-        bike.accelerate();
-        bike.accelerate();
-        bike.brake();
-        System.out.println(bike.currentSpeed());
-    }
-}

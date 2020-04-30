@@ -1,4 +1,4 @@
-package bicycles;
+package specification;
 
 public abstract class BicycleBase implements Bicycle {
     private int speed;

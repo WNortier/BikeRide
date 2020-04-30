@@ -1,16 +1,14 @@
 package models;
 
-import bicycles.Bicycle;
-import bicycles.BicycleBase;
+import specification.BicycleBase;
 
-public class Tandem extends BicycleBase implements Bicycle {
+public class Tandem extends BicycleBase {
+
     public void accelerate() {
         changeSpeed(12);
-//        this.speed += 5;
     }
 
     public void brake() {
         changeSpeed(-7);
-//        this.speed -= 3;
     }
 }

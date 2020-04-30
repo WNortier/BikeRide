@@ -1,4 +1,4 @@
-package bicycles;
+package specification;
 
 public class BicycleFromSpec extends BicycleBase {
     private int accelerationSpeed;

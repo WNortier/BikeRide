@@ -1,19 +1,18 @@
-package bicycles;
+package specification;
 
-import models.MountainBike;
-import models.RoadBike;
-import models.Tandem;
+import models.BicycleType;
 import org.junit.Test;
+import rides.*;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class BicycleTest {
+public class SpecificationTest {
 
     @Test
     public void shouldTakeRoadBikeOnARide() {
         BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
         Bicycle roadBike = new BicycleFromSpec(roadBikeSpec);
-        BikeRide bikeRideOne = new BikeRideOne();
+        BikeRide bikeRideOne = new BikeRideNormal();
         bikeRideOne.ride(roadBike);
         assertEquals(18, roadBike.currentSpeed());
     }
@@ -36,15 +35,17 @@ public class BicycleTest {
         assertEquals(53, tandemBike.currentSpeed());
     }
 
-    @Test public void shouldAcceptABikeToFunRide(){
+    @Test
+    public void shouldAcceptABikeToFunRide() {
         FunRide funride = new FunRide(5);
-        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.RoadBike));
-        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.RoadBike));
-        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.RoadBike));
-        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.MountainBike));
-        assertEquals("Bike Accepted", funride.addBikeToRide(BicycleType.TandemBike));
+        assertEquals("Bike Accepted", funride.accept(BicycleType.RoadBike));
+        assertEquals("Bike Accepted", funride.accept(BicycleType.RoadBike));
+        assertEquals("Bike Accepted", funride.accept(BicycleType.RoadBike));
+        assertEquals("Bike Accepted", funride.accept(BicycleType.MountainBike));
+        assertEquals("Bike Accepted", funride.accept(BicycleType.TandemBike));
         assertEquals(5, funride.getEnteredCount());
         assertEquals(3, funride.getCountForType(BicycleType.RoadBike));
-        assertEquals("Bike Rejected", funride.addBikeToRide(BicycleType.MountainBike));
+        assertEquals(1, funride.getCountForType(BicycleType.TandemBike));
+        assertEquals("Bike Rejected", funride.accept(BicycleType.MountainBike));
     }
 }

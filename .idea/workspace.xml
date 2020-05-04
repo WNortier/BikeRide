@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ba75c9-0820-4a7a-9101-82e91e94bf71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/models/BicycleType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/models/ModelsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/rides/BikeRide.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/rides/BikeRideChilled.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/rides/BikeRideNormal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/rides/BikeRideWild.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/rides/FunRide.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/rides/RidesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/specification/Bicycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/specification/BicycleBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/specification/BicycleFromSpec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/specification/BicycleSpecification.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/specification/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BikeRide/specification/SpecificationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rides/BikeRide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rides/BikeRideChilled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rides/BikeRideNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rides/BikeRideWild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rides/FunRide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/models/ModelsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/rides/RidesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleFromSpec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRideChilled.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRideOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRideWild.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/FunRide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/models/MountainBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/models/MountainBike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/models/RoadBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/models/RoadBike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/models/Tandem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/models/Tandem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specification/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specification/BicycleBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specification/BicycleFromSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specification/BicycleSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/BicycleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/FunRide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specification/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/MountainBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/RoadBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Tandem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Tandem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/specification/SpecificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/rides/RidesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/rides/RidesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rides/RidesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/rides/RidesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/specification/SpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/specification/SpecificationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +51,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RidesTest.shouldAcceptABikeToFunRide">
+  <component name="RunManager" selected="JUnit.SpecificationTest">
     <configuration name="RidesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -111,7 +67,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RidesTest.ShouldGoOnAChilledRoadBikeRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RidesTest.should_Return_Count_For_Bicycles_Entered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +77,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="rides" />
       <option name="MAIN_CLASS_NAME" value="rides.RidesTest" />
-      <option name="METHOD_NAME" value="ShouldGoOnAChilledRoadBikeRide" />
+      <option name="METHOD_NAME" value="should_Return_Count_For_Bicycles_Entered" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RidesTest.ShouldGoOnAChilledTandemBikeRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RidesTest.should_Return_Count_For_BikeType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
@@ -137,39 +93,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="rides" />
       <option name="MAIN_CLASS_NAME" value="rides.RidesTest" />
-      <option name="METHOD_NAME" value="ShouldGoOnAChilledTandemBikeRide" />
+      <option name="METHOD_NAME" value="should_Return_Count_For_BikeType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RidesTest.ShouldGoOnAWildRoadBikeRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpecificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rides.*" />
+          <option name="PATTERN" value="specification.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rides" />
-      <option name="MAIN_CLASS_NAME" value="rides.RidesTest" />
-      <option name="METHOD_NAME" value="ShouldGoOnAWildRoadBikeRide" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="specification" />
+      <option name="MAIN_CLASS_NAME" value="specification.SpecificationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RidesTest.shouldAcceptABikeToFunRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpecificationTest.shouldTakeRoadBikeOnARide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rides.*" />
+          <option name="PATTERN" value="specification.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rides" />
-      <option name="MAIN_CLASS_NAME" value="rides.RidesTest" />
-      <option name="METHOD_NAME" value="shouldAcceptABikeToFunRide" />
+      <option name="PACKAGE_NAME" value="specification" />
+      <option name="MAIN_CLASS_NAME" value="specification.SpecificationTest" />
+      <option name="METHOD_NAME" value="shouldTakeRoadBikeOnARide" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RidesTest.shouldAcceptABikeToFunRide" />
+        <item itemvalue="JUnit.SpecificationTest" />
+        <item itemvalue="JUnit.SpecificationTest.shouldTakeRoadBikeOnARide" />
+        <item itemvalue="JUnit.RidesTest.should_Return_Count_For_Bicycles_Entered" />
+        <item itemvalue="JUnit.RidesTest.should_Return_Count_For_BikeType" />
         <item itemvalue="JUnit.RidesTest" />
-        <item itemvalue="JUnit.RidesTest.ShouldGoOnAChilledTandemBikeRide" />
-        <item itemvalue="JUnit.RidesTest.ShouldGoOnAWildRoadBikeRide" />
-        <item itemvalue="JUnit.RidesTest.ShouldGoOnAChilledRoadBikeRide" />
       </list>
     </recent_temporary>
   </component>
@@ -220,35 +175,35 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="149" y="97" width="1650" height="853" key="DiffContextDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1586373819856" />
-    <state x="778" y="311" width="374" height="427" key="FileChooserDialogImpl" timestamp="1587673694886">
+    <state x="778" y="311" width="374" height="427" key="FileChooserDialogImpl" timestamp="1588492695559">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="2532" y="243" width="374" height="427" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1587474040142" />
-    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1587673694886" />
-    <state width="1804" height="138" key="GridCell.Tab.0.bottom" timestamp="1588260360479">
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588492695559" />
+    <state width="1804" height="138" key="GridCell.Tab.0.bottom" timestamp="1588583133843">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1804" height="275" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1585944593849" />
     <state width="1554" height="248" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1587467810671" />
-    <state width="1804" height="138" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588260360479" />
-    <state width="1804" height="138" key="GridCell.Tab.0.center" timestamp="1588260360479">
+    <state width="1804" height="138" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588583133843" />
+    <state width="1804" height="138" key="GridCell.Tab.0.center" timestamp="1588583133843">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1804" height="275" key="GridCell.Tab.0.center/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1585944593849" />
     <state width="1554" height="248" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1587467810671" />
-    <state width="1804" height="138" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588260360479" />
-    <state width="1804" height="138" key="GridCell.Tab.0.left" timestamp="1588260360479">
+    <state width="1804" height="138" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588583133843" />
+    <state width="1804" height="138" key="GridCell.Tab.0.left" timestamp="1588583133843">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1804" height="275" key="GridCell.Tab.0.left/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1585944593849" />
     <state width="1554" height="248" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1587467810671" />
-    <state width="1804" height="138" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588260360479" />
-    <state width="1804" height="138" key="GridCell.Tab.0.right" timestamp="1588260360479">
+    <state width="1804" height="138" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588583133843" />
+    <state width="1804" height="138" key="GridCell.Tab.0.right" timestamp="1588583133843">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1804" height="275" key="GridCell.Tab.0.right/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1585944593849" />
     <state width="1554" height="248" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1587467810671" />
-    <state width="1804" height="138" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588260360479" />
+    <state width="1804" height="138" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588583133843" />
     <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1586551582848">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -265,14 +220,14 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1804" height="340" key="GridCell.Tab.1.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1586551582848" />
-    <state x="478" y="208" width="1442" height="698" key="NewModule_or_Project.wizard" timestamp="1587388852016">
+    <state x="478" y="208" width="1442" height="698" key="NewModule_or_Project.wizard" timestamp="1588492729382">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="478" y="208" width="1442" height="698" key="NewModule_or_Project.wizard/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1587388852016" />
-    <state x="1232" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588233351964">
+    <state x="478" y="208" width="1442" height="698" key="NewModule_or_Project.wizard/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588492729382" />
+    <state x="1232" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588492544988">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1232" y="189" key="com.intellij.ide.util.TipDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588233351964" />
+    <state x="1232" y="189" key="com.intellij.ide.util.TipDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1588492544988" />
     <state x="2267" y="449" width="646" height="215" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585564810689">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>

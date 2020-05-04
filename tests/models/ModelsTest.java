@@ -36,7 +36,14 @@ public class ModelsTest {
 
     @Test
     public void getShouldInstantiateTandemBike() {
-        BicycleType tandemBike = BicycleType.TandemBike;
+        BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.MountainBike);
+        Bicycle tandemBike = new BicycleFromSpec(tandemBikeSpec);
+        tandemBike.accelerate();
+        assertEquals(12, tandemBike.currentSpeed());
+        tandemBike.brake();
+        assertEquals(5, tandemBike.currentSpeed());
+        tandemBike.accelerate();
+        assertEquals(17, tandemBike.currentSpeed());
     }
 
 }

@@ -2,7 +2,7 @@ package models;
 
 import org.junit.Test;
 
-import specification.Bicycle;
+import interfaces.Bicycle;
 import specification.BicycleFromSpec;
 import specification.BicycleSpecification;
 
@@ -24,8 +24,8 @@ public class ModelsTest {
 
     @Test
     public void shouldInstantiateMountainBike() {
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
-        Bicycle mountainBike = new BicycleFromSpec(roadBikeSpec);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
+        Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
         mountainBike.accelerate();
         assertEquals(5, mountainBike.currentSpeed());
         mountainBike.brake();
@@ -35,7 +35,7 @@ public class ModelsTest {
     }
 
     @Test
-    public void getShouldInstantiateTandemBike() {
+    public void shouldInstantiateTandemBike() {
         BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.MountainBike);
         Bicycle tandemBike = new BicycleFromSpec(tandemBikeSpec);
         tandemBike.accelerate();

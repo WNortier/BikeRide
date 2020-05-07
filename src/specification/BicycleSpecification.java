@@ -13,10 +13,16 @@ public class BicycleSpecification {
         this.brakeSpeed = brakeSpeed;
         this.bicycleType = bicycletype;
     }
+
     public int getAccelerationSpeed(){
         return this.accelerationSpeed;
     }
+
     public int getBrakeSpeed(){
         return this.brakeSpeed;
+    }
+
+    protected BicycleType getBicycleType() {
+        return this.bicycleType;
     }
 }

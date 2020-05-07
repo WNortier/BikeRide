@@ -1,4 +1,4 @@
-package specification;
+package interfaces;
 
 public interface Bicycle {
     void accelerate();

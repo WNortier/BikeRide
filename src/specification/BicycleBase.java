@@ -1,5 +1,7 @@
 package specification;
 
+import interfaces.Bicycle;
+
 public abstract class BicycleBase implements Bicycle {
     private int speed;
 

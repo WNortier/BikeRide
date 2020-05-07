@@ -1,5 +1,6 @@
 package rides;
 
+import interfaces.Bicycle;
 import models.BicycleType;
 
 import java.util.ArrayList;
@@ -13,30 +14,23 @@ public class FunRide {
         this.maxEntries = maxEntries;
     }
 
-    public String accept(BicycleType bikeType) {
+    public void accept(BicycleType bikeType) {
         if (this.list.size() < this.maxEntries && !list.contains(bikeType)) {
             list.add(bikeType);
-            return "Bike Accepted";
-        } else if (this.list.size() < this.maxEntries && list.contains(bikeType)) {
-            return "Error - Duplicate Bike";
-        } else if (this.list.size() == this.maxEntries) {
-            return "Error - Ride Full";
         }
-        return null;
     }
 
-        public int getCountForType (BicycleType bikeType){
-            int bikeCount = 0;
-            for (BicycleType bike : list) {
-                if (bike == bikeType)
-                    bikeCount++;
-            }
-            return bikeCount;
+    public int getCountForType(BicycleType bikeType) {
+        int bikeCount = 0;
+        for (BicycleType bike : list) {
+            if (bike == bikeType)
+                bikeCount++;
         }
-
-        public int getEnteredCount () {
-            return this.list.size();
-        }
-
-
+        return bikeCount;
     }
+
+    public int getEnteredCount() {
+        return this.list.size();
+    }
+
+}
